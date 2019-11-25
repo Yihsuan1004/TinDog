@@ -1,0 +1,173 @@
+body{
+    font-family: 'Montserrat';
+    font-weight: 200;
+}
+#title{
+    background-color: #ff4c68;
+}
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 3rem;
+    line-height: 1.5;
+    color: white;
+}
+.container-fluid{
+    padding: 3% 15% 7%;
+}
+.fa-google-play{
+    font-size: smaller;
+    padding-right: 5px;
+}
+
+/* Nav */
+.navbar{
+    padding: 0 0 4.5rem ;
+}
+.navbar-brand{
+    font-family: Ubuntu;
+    font-size: 2.5rem;
+}
+.nav-item{
+    padding: 0 18px;
+}
+.nav-link{
+    font-size: 1.2rem;
+    font-family: 'Montserrat';
+    font-weight: 200;
+}
+
+/* Download Buttons */
+.download-btn{
+    margin: 5% 3% 5% 0;
+}
+
+.titleImage{
+    width: 60%;
+    position: absolute;
+    right: 10%;
+}
+
+@media (max-width:992px){
+    #title{
+        text-align: center;
+    }
+    .title{
+        text-align: center;
+    }
+    .titleImage{
+        position: static;
+    }
+}
+
+/* Features */
+#features{
+    padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
+}
+.feature-box{
+    text-align: center;
+    padding: 5%;
+}
+.feature-box h3{
+    font-family: 'Montserrat';
+    font-weight: 900;
+}
+.feature-box p{
+    color: grey;
+}
+
+.icon{
+    padding-bottom: 5%;
+    color: #ef8172;
+}
+
+.icon:hover{
+    color: #ff4c68;
+}
+
+/* Comment */ 
+#comments{
+    padding: 7% 15%;
+    text-align: center;
+    background-color: #ef8172;
+    color: white;
+}
+
+h2{
+    font-size: 3rem;
+    font-family: sans-serif;
+    font-weight: 700;
+    line-height: 1.5;
+}
+.comment-image{
+    width: 10%;
+    border-radius: 100%;
+}
+
+/* Press */
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/* Price */
+.card{
+    height: 100%;
+}
+#pricing{
+    text-align: center;
+    padding: 100px;
+}
+.card-header{
+    background-color: #ff4c68;
+    color: white;
+}
+.card-body{
+    border: 1px solid  #ff4c68;
+}
+.pricing-column{
+    padding: 3% 2%;
+    text-align: center;
+}
+
+
+/* Call to action */
+#cta{
+    text-align: center;
+    background-color:#ff4c68;
+    padding: 10% 15%;
+}
+
+#cta h3{
+    font-size: 2.5rem;
+    font-family: 'Montserrat';
+    font-weight: 900;
+    color: white;
+    margin-bottom: 5%;
+}
+#cta button{
+    margin: 0 3%;
+}
+@media (max-width:670px){
+    #cta button{
+        margin: 3%;
+    }
+}
+
+/* Footer */
+#footer{
+    padding: 5% 15%;
+    text-align: center;
+}
+.social-icon{
+    font-size: 30px;
+    margin: 2%;
+}
