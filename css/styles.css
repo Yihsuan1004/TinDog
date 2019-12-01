@@ -37,7 +37,7 @@ h1{
     font-weight: 200;
 }
 
-/* Download Buttons */
+/*--Download Buttons--*/
 .download-btn{
     margin: 5% 3% 5% 0;
 }
@@ -60,7 +60,7 @@ h1{
     }
 }
 
-/* Features */
+/*--Features--*/
 #features{
     padding: 7% 15%;
     background-color: #fff;
@@ -88,7 +88,7 @@ h1{
     color: #ff4c68;
 }
 
-/* Comment */ 
+/*--Comment--*/ 
 #comments{
     padding: 7% 15%;
     text-align: center;
@@ -107,7 +107,7 @@ h2{
     border-radius: 100%;
 }
 
-/* Press */
+/*--Press--*/
 #press{
     background-color: #ef8172;
     text-align: center;
@@ -139,7 +139,7 @@ h2{
 }
 
 
-/* Call to action */
+/*--Call to action--*/
 #cta{
     text-align: center;
     background-color:#ff4c68;
@@ -162,7 +162,7 @@ h2{
     }
 }
 
-/* Footer */
+/*--Footer--*/
 #footer{
     padding: 5% 15%;
     text-align: center;
